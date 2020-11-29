@@ -1,0 +1,195 @@
+body {
+	font: 16px/20px arial, sans-serif;
+	background-color: #eaeaea;
+	background-image: url(../img/sativa.png);
+	color: #333;
+}
+
+.top-bar{
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	position: fixed;
+	height: 40px;
+	background-color: #999999;
+	line-height: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	z-index: 9999;
+}
+
+.top-bar ul li {
+	display: inline-block;
+}
+
+.top-bar a{
+	text-decoration: none;
+	color: darkblue;
+	padding: 3px;
+}
+
+.top-bar a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+
+.container{
+	width: 1060px;
+	height: 1348px;
+	margin: 80px auto;
+	background-color: rgba(179,209,226,30%);
+	position: relative;
+	border-radius: 50px;
+	border: 2px dotted black;
+	border-bottom: none;
+	border-top: 2px solid black;
+}
+
+.header{
+	padding: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #202c2d;
+	font-size: 24px;
+	text-shadow: 0 1px #808d93,
+		    -1px 0 #cdd2d5,
+		    -1px 2px #808d93,
+		    -2px 1px #cdd2d5,
+		    -2px 3px #808d93,
+		    -3px 2px #cdd2d5,
+		    -3px 4px #808d93,
+		    -4px 3px #cdd2d5,
+		    -4px 5px #808d93,
+		    -5px 4px #cdd2d5,
+		    -5px 6px #808d93,
+		    -6px 5px #cdd2d5,
+		    -6px 7px #808d93,
+		    -7px 6px #cdd2d5,
+		    -7px 8px #808d93,
+		    -8px 7px #cdd2d5;
+}
+
+.foto{
+	border-top: 5px solid blue;
+	border-bottom: 5px solid lightskyblue;
+	height: 430px;
+	background-image: url(../img/wall.jpg);
+	background-size: cover;
+	background-position: 0 -150px;
+}
+
+.foto img{
+	margin-left: 405px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+.foto h2{
+	font-size: 30px;
+	text-align: center;
+	margin-left: 10px;
+	color: white;
+		text-shadow: -7px 7px 0px #00e6e6,
+                 -14px 14px 0px #01cccc,
+                 -21px 21px 0px #00bdbd;
+}
+
+.atas{
+	text-align: center;
+}
+
+.profil, .about, .education{
+	color: rgb(84,124,154);
+	text-align: center;
+	text-decoration: underline;
+}
+
+.kiri{
+	width: 515px;
+	height: 647px;
+	background-color: rgba(179,209,226,60%);
+	/*float: left;*/
+	position: absolute;
+	border-top: 5px solid salmon;
+	border-right: 3px solid lightgreen;
+	text-indent: 15px;
+	line-height: 19px;
+}
+.kiri p{
+	text-indent: 40px;
+}
+.iwa{
+	width: 30px;
+	height: 30px;
+ 	background-image: url(../img/wa.png);
+ 	background-repeat: no-repeat;
+ 	display: inline-block;
+ 	position: absolute;
+ 	top: 258px;
+ 	right: 100px;
+}
+.iinstagram{
+	width: 30px;
+	height: 30px;
+ 	background-image: url(../img/instagram.png);
+ 	background-repeat: no-repeat;
+ 	display: inline-block;
+ 	position: absolute;
+ 	top: 338px;
+ 	right: 100px;
+}
+.iline{
+	width: 30px;
+	height: 30px;
+ 	background-image: url(../img/line.png);
+ 	background-repeat: no-repeat;
+ 	display: inline-block;
+ 	position: absolute;
+ 	top: 418px;
+ 	right: 100px;
+}
+.iemail{
+	width: 30px;
+	height: 30px;
+ 	background-image: url(../img/gmail.png);
+ 	background-repeat: no-repeat;
+ 	display: inline-block;
+ 	position: absolute;
+ 	top: 498px;
+ 	right: 100px;
+}
+
+.kanan{
+	width: 515px;
+	height: 647px;
+	background-color: rgba(179,209,226,60%);
+	/*float: right;*/
+	position: absolute;
+	margin-left: 542px;
+	border-top: 5px solid salmon;
+	border-left: 3px solid lightgreen;
+	text-indent: 15px;
+}
+.kanan p{
+	text-indent: 40px;
+}
+
+.content h4{
+	font-style: italic;
+}
+
+
+.footer {
+	background-color: #333;
+	margin-top: 668px;
+	padding: 2px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.footer .copy{
+	color: #eeeeee;
+	text-align: center;
+	font-size: 12px;
+}
